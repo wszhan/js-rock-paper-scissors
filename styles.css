@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    height: 80vh;
+    width: 100;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-title {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buttons {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.buttons * {
+    flex: 1 1 0;
+}
