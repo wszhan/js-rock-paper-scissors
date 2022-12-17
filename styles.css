@@ -52,6 +52,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     row-gap: 10px;
 }
 
@@ -66,3 +67,11 @@ button {
     flex: 1 1 0;
     font-size: 50px;
 }
+
+#computer-choice-icon,
+#player-choice-icon {
+    font-size: 50px;
+}
+
+/* #current-message {
+} */

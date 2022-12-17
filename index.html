@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     <title>🔪 刀. 🪨 石. 📄 布.</title>
 </head>
@@ -24,30 +24,31 @@
             Make Your Next Move
         </div>
         <div class="buttons">
-            <button class="rock">🪨</button>
-            <button class="paper">📄</button>
-            <button class="scissors">✂️</button>
+            <button id="rock-button">🪨</button>
+            <button id="paper-button">📄</button>
+            <button id="scissors-button">✂️</button>
         </div>
     </div>
     <div class="display">
+        <div id="current-message">🔥 The Game is about to start 🔥</div>
         <div class="current-match">
             <div class="player-choice">
                 <div>Player</div>
-                <div>👌</div>
+                <div id="player-choice-icon">👌</div>
             </div>
             <div class="computer-choice">
-                <div>The Mighty OO</div>
-                <div>👌</div>
+                <div>The<br> Mighty<br> OO</div>
+                <div id="computer-choice-icon">👌</div>
             </div>
         </div>
         <div class="scoreboard">
             <div class="player-score">
                 <div>Player Wins</div>
-                <div>0️</div>
+                <div id="player-score">0️</div>
             </div>
             <div class="computer-score">
                 <div>Mighty OO Wins</div>
-                <div>0</div>
+                <div id="computer-score">0</div>
             </div>
         </div>
     </div>
